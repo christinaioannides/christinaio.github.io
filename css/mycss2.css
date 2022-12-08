@@ -1,0 +1,46 @@
+a:link {
+    color: black;
+  }
+  a:visited {
+    color: black;
+  }
+  @font-face {
+    font-family: Netigen Regular;
+    src: url(netigen.otf);}
+    h2 {
+     font-family: Netigen Regular;
+    }
+    * {
+box-sizing: border-box;
+}
+.column {
+float: left;
+width: 50%;
+padding: 10px;
+height: 200px;
+}
+img {
+border: 10px solid #ba54d1;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+}
+a {
+  display: block;
+  color: #7a2a91;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #7a2a91;
+  color: white;
+}
+.active {
+  background-color: #baffba;
+  color: #7a2a91;
+}
